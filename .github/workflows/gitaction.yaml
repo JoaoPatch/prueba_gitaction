@@ -1,0 +1,11 @@
+name: Mostrar hola
+on:
+  push:
+   ranches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-laslest
+    steps:
+    - name: Escribir mensaje en la pantalla
+      run: 
+        echo "Hola desde el runner de github action"
