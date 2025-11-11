@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Escribir mensaje en la pantalla
-      run: 
+      run: |
+        echo " hoy es $sysdate"
         echo "Hola desde el runner de github action"
