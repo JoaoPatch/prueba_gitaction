@@ -4,7 +4,7 @@ on:
    ranches: [ main ]
 jobs:
   build:
-    runs-on: ubuntu-laslest
+    runs-on: ubuntu-latest
     steps:
     - name: Escribir mensaje en la pantalla
       run: 
