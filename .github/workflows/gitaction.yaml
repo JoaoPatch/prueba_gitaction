@@ -8,5 +8,6 @@ jobs:
     steps:
     - name: Escribir mensaje en la pantalla
       run: |
-        echo " hoy es $sysdate"
         echo "Hola desde el runner de github action"
+        echo "hoy es" $sysdate
+        java -version
