@@ -9,5 +9,5 @@ jobs:
     - name: Escribir mensaje en la pantalla
       run: |
         echo "Hola desde el runner de github action"
-        echo "hoy es: "date
-        java -v
+        echo "hoy es: $(date)"
+        java -version
